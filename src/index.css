@@ -8,33 +8,33 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
-    --foreground: 222 47% 11%;
+    --background: 45 50% 98%;
+    --foreground: 25 30% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card-foreground: 25 30% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover-foreground: 25 30% 10%;
 
-    --primary: 213 94% 25%;
-    --primary-foreground: 0 0% 98%;
-    --primary-hover: 213 94% 20%;
+    --primary: 25 85% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 25 85% 40%;
 
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 220 13% 26%;
+    --secondary: 45 100% 85%;
+    --secondary-foreground: 25 85% 20%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 13% 46%;
+    --muted: 45 50% 95%;
+    --muted-foreground: 25 30% 40%;
 
-    --accent: 32 95% 58%;
-    --accent-foreground: 0 0% 98%;
-    --accent-hover: 32 95% 50%;
+    --accent: 15 90% 55%;
+    --accent-foreground: 0 0% 100%;
+    --accent-hover: 15 90% 60%;
 
-    --construction-blue: 213 94% 25%;
-    --construction-orange: 32 95% 58%;
-    --construction-gray: 220 13% 26%;
-    --construction-light: 220 14% 96%;
+    --african-earth: 25 85% 35%;
+    --african-gold: 45 100% 65%;
+    --african-sunset: 15 90% 55%;
+    --african-sand: 45 50% 90%;
 
     --gradient-hero: linear-gradient(135deg, hsl(213 94% 25%), hsl(213 94% 20%));
     --gradient-section: linear-gradient(180deg, hsl(220 14% 98%), hsl(0 0% 100%));
@@ -71,26 +71,26 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 25 30% 8%;
+    --foreground: 45 30% 95%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 25 30% 6%;
+    --card-foreground: 45 30% 95%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 25 30% 6%;
+    --popover-foreground: 45 30% 95%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 25 85% 45%;
+    --primary-foreground: 0 0% 95%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 25 20% 15%;
+    --secondary-foreground: 45 30% 90%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 25 20% 12%;
+    --muted-foreground: 45 20% 60%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 15 90% 60%;
+    --accent-foreground: 0 0% 95%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;

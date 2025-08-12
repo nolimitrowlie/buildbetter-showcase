@@ -57,11 +57,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				construction: {
-					blue: 'hsl(var(--construction-blue))',
-					orange: 'hsl(var(--construction-orange))',
-					gray: 'hsl(var(--construction-gray))',
-					light: 'hsl(var(--construction-light))'
+				african: {
+					earth: 'hsl(var(--african-earth))',
+					gold: 'hsl(var(--african-gold))',
+					sunset: 'hsl(var(--african-sunset))',
+					sand: 'hsl(var(--african-sand))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

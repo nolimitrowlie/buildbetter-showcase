@@ -9,11 +9,12 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Building2 className="h-8 w-8 text-accent" />
-              <span className="text-2xl font-bold">BuildPro</span>
+              <span className="text-2xl font-bold">Mathleza Trading</span>
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
-              Building excellence since 2008. We're your trusted partner for all 
-              construction needs, delivering quality projects on time and within budget.
+              Proudly South African since 2008. Built on Ubuntu values, we deliver 
+              construction and trading excellence across Africa, empowering communities 
+              and creating sustainable development.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-primary-foreground/60 hover:text-accent transition-colors">
@@ -62,17 +63,17 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li>123 Construction Ave</li>
-              <li>Building City, BC 12345</li>
-              <li>(555) 123-4567</li>
-              <li>info@buildpro.com</li>
+              <li>45 Ubuntu Business Park</li>
+              <li>Johannesburg, Gauteng 2001</li>
+              <li>+27 11 234-5678</li>
+              <li>info@mathlezatrading.co.za</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-primary-foreground/60 text-sm">
-            © 2024 BuildPro Construction. All rights reserved.
+            © 2024 Mathleza Trading Projects. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-primary-foreground/60 hover:text-accent transition-colors text-sm">

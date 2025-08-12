@@ -5,28 +5,28 @@ const About = () => {
   const values = [
     {
       icon: Shield,
-      title: "Quality Assurance",
-      description: "Every project meets our highest standards of construction excellence."
+      title: "Ubuntu Excellence",
+      description: "Built on African values of community and togetherness, we deliver projects that uplift and strengthen local communities."
     },
     {
       icon: Clock,
-      title: "On-Time Delivery",
-      description: "We respect your timeline and deliver projects when promised."
+      title: "Local Expertise",
+      description: "Deep understanding of African construction challenges, climate, and regulations ensures successful project delivery."
     },
     {
       icon: Trophy,
-      title: "Expert Craftsmanship",
-      description: "Our skilled team brings decades of construction expertise."
+      title: "Community Focus",
+      description: "Committed to empowering local communities through skills development, job creation, and sustainable development practices."
     }
   ];
 
   const achievements = [
-    "Licensed & Insured Contractors",
-    "BBB A+ Rating",
-    "OSHA Safety Certified",
-    "Green Building Certified",
-    "Local Building Code Experts",
-    "24/7 Emergency Service"
+    "CIDB Registered Contractors",
+    "BEE Level 2 Contributor",
+    "SACPCMP Certified",
+    "Green Building Council Member",
+    "NHBRC Registered",
+    "Skills Development Partner"
   ];
 
   return (
@@ -36,16 +36,16 @@ const About = () => {
           {/* Content */}
           <div>
             <span className="inline-block px-4 py-2 bg-accent/10 text-accent font-semibold rounded-full text-sm mb-4">
-              About BuildPro
+              About Mathleza Trading
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-              Building Excellence
+              Ubuntu Excellence
               <span className="text-primary block">Since 2008</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              For over 15 years, BuildPro has been the trusted choice for construction 
-              projects throughout the region. We combine traditional craftsmanship with 
-              modern techniques to deliver outstanding results that exceed expectations.
+              Established in 2008, Mathleza Trading Projects is a proudly South African company 
+              built on Ubuntu principles. We serve communities across the region with construction, 
+              trading, and development expertise, always putting people first.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">

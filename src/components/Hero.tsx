@@ -21,18 +21,18 @@ const Hero = () => {
           <div className="max-w-3xl">
             <div className="mb-6">
               <span className="inline-block px-4 py-2 bg-accent/20 text-accent font-semibold rounded-full text-sm mb-4">
-                🏗️ Professional Construction Services
+                🌍 Ubuntu Building Excellence
               </span>
             </div>
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Building Your 
-              <span className="text-accent block">Dreams</span>
-              Into Reality
+              Ubuntu Building,
+              <span className="text-accent block">African Excellence</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-2xl">
-              From residential homes to commercial projects, we deliver exceptional construction services with unmatched quality and reliability.
+              Leading African construction and trading company, proudly serving communities across 
+              South Africa with integrity, quality, and traditional Ubuntu values.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -50,7 +50,7 @@ const Hero = () => {
               <div className="flex items-center space-x-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
                 <Award className="h-8 w-8 text-accent" />
                 <div>
-                  <div className="text-2xl font-bold text-white">15+</div>
+                  <div className="text-2xl font-bold text-white">16+</div>
                   <div className="text-white/80 text-sm">Years Experience</div>
                 </div>
               </div>
@@ -58,16 +58,16 @@ const Hero = () => {
               <div className="flex items-center space-x-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
                 <Users className="h-8 w-8 text-accent" />
                 <div>
-                  <div className="text-2xl font-bold text-white">500+</div>
-                  <div className="text-white/80 text-sm">Happy Clients</div>
+                  <div className="text-2xl font-bold text-white">850+</div>
+                  <div className="text-white/80 text-sm">Communities Served</div>
                 </div>
               </div>
               
               <div className="flex items-center space-x-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
                 <Wrench className="h-8 w-8 text-accent" />
                 <div>
-                  <div className="text-2xl font-bold text-white">1000+</div>
-                  <div className="text-white/80 text-sm">Projects Done</div>
+                  <div className="text-2xl font-bold text-white">1200+</div>
+                  <div className="text-white/80 text-sm">Projects Completed</div>
                 </div>
               </div>
             </div>

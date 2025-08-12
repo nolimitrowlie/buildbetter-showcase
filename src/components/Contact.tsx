@@ -9,26 +9,26 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: "(555) 123-4567",
-      description: "Mon-Fri 8AM-6PM"
+      details: "+27 11 234-5678",
+      description: "Mon-Fri 8AM-5PM"
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: "info@buildpro.com",
+      details: "info@mathlezatrading.co.za",
       description: "24/7 Response"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "123 Construction Ave",
-      description: "Building City, BC 12345"
+      details: "45 Ubuntu Business Park",
+      description: "Johannesburg, Gauteng 2001"
     },
     {
       icon: Clock,
       title: "Working Hours",
-      details: "Mon - Fri: 8AM - 6PM",
-      description: "Sat: 9AM - 4PM"
+      details: "Mon - Fri: 8AM - 5PM",
+      description: "Sat: 9AM - 2PM"
     }
   ];
 
