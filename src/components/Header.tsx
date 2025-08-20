@@ -1,16 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Building2, Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "Home", href: "#home" },
-    { label: "Services", href: "#services" },
-    { label: "Projects", href: "#projects" },
-    { label: "About", href: "#about" },
-    { label: "Contact", href: "#contact" },
+    { label: "Home", href: "#home", isAnchor: true },
+    { label: "Services", href: "#services", isAnchor: true },
+    { label: "Projects", href: "#projects", isAnchor: true },
+    { label: "About", href: "#about", isAnchor: true },
+    { label: "Machine Hire", href: "/machine-hire", isAnchor: false },
+    { label: "Contact", href: "#contact", isAnchor: true },
   ];
 
   return (
@@ -26,13 +28,23 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
-              >
-                {item.label}
-              </a>
+              item.isAnchor ? (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.label}
+                  to={item.href}
+                  className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
+                >
+                  {item.label}
+                </Link>
+              )
             ))}
           </nav>
 
@@ -61,14 +73,25 @@ const Header = () => {
           <div className="md:hidden py-4 border-t">
             <nav className="flex flex-col space-y-3">
               {navItems.map((item) => (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  className="text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.label}
-                </a>
+                item.isAnchor ? (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    className="text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.label}
+                    to={item.href}
+                    className="text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                )
               ))}
               <Button variant="hero" className="mt-4 w-full">
                 Get Quote
