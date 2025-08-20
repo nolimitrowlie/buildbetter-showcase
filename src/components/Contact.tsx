@@ -9,20 +9,20 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: "+27 11 234-5678",
-      description: "Mon-Fri 8AM-5PM"
+      details: "+27 73 589 8052",
+      description: "Mr. Richard Dlamini"
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: "info@mathlezatrading.co.za",
+      details: "richarddlamini47@gmail.com",
       description: "24/7 Response"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "45 Ubuntu Business Park",
-      description: "Johannesburg, Gauteng 2001"
+      details: "7644 Sesala Street",
+      description: "Dobsonville, 1864"
     },
     {
       icon: Clock,
@@ -152,6 +152,27 @@ const Contact = () => {
                 </p>
               </CardContent>
             </Card>
+          </div>
+        </div>
+
+        {/* Location Map */}
+        <div className="mt-16">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-foreground mb-4">Find Us</h3>
+            <p className="text-muted-foreground">Visit our office in Dobsonville for consultations and project discussions</p>
+          </div>
+          <div className="bg-gradient-card rounded-lg overflow-hidden shadow-card">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.3547777777777!2d27.8847222!3d-26.1847222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a5a5a5a5a5a5%3A0x1e95a5a5a5a5a5a5!2sDobsonville%2C%20Roodepoort%2C%20South%20Africa!5e0!3m2!1sen!2sus!4v1642777777777!5m2!1sen!2sus"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Mathleza Trading & Projects Location"
+              className="w-full"
+            />
           </div>
         </div>
       </div>

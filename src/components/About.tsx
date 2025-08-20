@@ -40,12 +40,14 @@ const About = () => {
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Ubuntu Excellence
-              <span className="text-primary block">Since 2008</span>
+              <span className="text-primary block">Since 2011</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Established in 2008, Mathleza Trading Projects is a proudly South African company 
-              built on Ubuntu principles. We serve communities across the region with construction, 
-              trading, and development expertise, always putting people first.
+              Founded in 2011, Mathleza Trading & Projects is a dynamic and 100% black-owned South African 
+              enterprise committed to Ubuntu excellence. We offer integrated services to government, 
+              corporate, educational, healthcare, and community institutions. Our services include 
+              construction, branding, cleaning, and general trading - all delivered with the spirit 
+              of Ubuntu: "I am because we are."
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
