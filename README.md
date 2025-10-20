@@ -5,6 +5,7 @@ A professional construction and trading company website showcasing services in r
 ## Author
 
 Rowland Kutukwa - ST10077804
+module = XBCIS7322
 
 ## Project Overview
 
