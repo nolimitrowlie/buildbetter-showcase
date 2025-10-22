@@ -27,9 +27,10 @@ This website serves as the digital presence for Mathleza Trading Projects, featu
 
 ### Prerequisites
 
-- Node.js & npm installed
+- Node.js (v18 or higher) & npm installed
+- VS Code (recommended)
 
-### Installation
+### Installation & Running in VS Code
 
 ```sh
 # Clone the repository
@@ -38,12 +39,29 @@ git clone <YOUR_GIT_URL>
 # Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
+# Open in VS Code
+code .
+
 # Install dependencies
 npm install
+# or use bun
+bun install
 
 # Start the development server
 npm run dev
+# or use bun
+bun run dev
 ```
+
+The development server will start at `http://localhost:8080`
+
+### VS Code Setup
+
+When you open the project in VS Code:
+1. Install recommended extensions when prompted (Prettier, ESLint, Tailwind CSS IntelliSense)
+2. The workspace settings are pre-configured for optimal development experience
+3. Auto-formatting will work on save
+4. Tailwind CSS class suggestions will appear as you type
 
 ## Building for Production
 
